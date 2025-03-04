@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+ul .text {
+  text-decoration: none;
+  transition: 0.5s all cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+ul .text:hover {
+  color: red;
+}/*# sourceMappingURL=home.component.css.map */

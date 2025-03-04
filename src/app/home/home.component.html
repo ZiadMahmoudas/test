@@ -1,0 +1,16 @@
+
+<ul [ngSwitch]="color" >
+    <li *ngSwitchCase="'red'"><a [ngClass]="hover" href="#">Home</a></li>
+    <li *ngSwitchCase="'red'"><a [ngClass]="hover" href="#">Contact</a></li>
+    <li *ngSwitchCase="'red'"><a [ngClass]="hover" href="#">About</a></li>
+    <li *ngSwitchDefault><a [ngClass]="hover" href="#">Leave</a></li>
+
+</ul>
+<h1>parent</h1>
+<app-parent>
+</app-parent>
+
+<h1>Contact</h1>
+<app-contact>
+</app-contact>
+
