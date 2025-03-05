@@ -1,3 +1,8 @@
-<app-child [t]="parentTitle" (msg)="appearToConsole()">
+<app-child   [t]="parentTitle" (msg)="appearToConsole($event)">
+   <div class="head">
+  <p *ngIf="isVisible">This is a good {{ parentTitle }}</p>
+  <h5>zek</h5>
+</div>
 </app-child>
+
 

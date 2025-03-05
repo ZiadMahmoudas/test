@@ -1,4 +1,4 @@
-import { Component,ChangeDetectorRef } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-contact',
@@ -13,4 +13,5 @@ export class ContactComponent {
     this.isVisible = !this.isVisible;
     console.log(`${e}`);
   }
+
 }
